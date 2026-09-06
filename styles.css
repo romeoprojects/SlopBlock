@@ -1,0 +1,26 @@
+.ahg-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+  z-index: 100;
+  pointer-events: none;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.ahg-badge-slop {
+  background: rgba(220, 38, 38, 0.92);
+  color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ahg-badge-human {
+  background: rgba(22, 163, 74, 0.92);
+  color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
